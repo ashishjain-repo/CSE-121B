@@ -10,4 +10,5 @@ newDiv.innerHTML = "<ul><li>One</li><li>Two</li><li>Three</li></ul>";
 document.body.appendChild(newDiv);
 
 const newP = document.createElement('p');
-newP.textContent = "Hello World";
+newP.textContent = "This is my new paragraph";
+document.body.append(newP);
